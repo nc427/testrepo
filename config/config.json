@@ -23,12 +23,12 @@
   "params": {
     "tag_manager_id": "",
     "footer_content": "Lorem ipsum dolor sit amt, conse adip iscing. donec iaculis tempasus laoreet. Libero ullam rgscper.",
-    "copyright": "Designed and Developed By [Statichunt](https://statichunt.com/)"
+    "copyright": "Designed and Developed By Group KNC"
   },
   "metadata": {
-    "meta_author": "Statichunt",
+    "meta_author": "Group KNC",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Geeky Nextjs Personal Blog Template"
+    "meta_description": "mywebclass.org"
   },
   "widgets": {
     "about": {

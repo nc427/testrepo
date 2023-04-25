@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const About = ({ data }) => {
   const { frontmatter, mdxContent } = data;
-  const { title, image, education, experience } = frontmatter;
+  const { title, image, team, experience } = frontmatter;
 
   return (
     <section className="section mt-16">
@@ -31,14 +31,14 @@ const About = ({ data }) => {
         <div className="row mt-24 text-left lg:flex-nowrap">
           <div className="lg:col-6 ">
             <div className="rounded border border-border p-6 dark:border-darkmode-border ">
-              {markdownify(education.title, "h2", "section-title mb-12")}
+              {markdownify(team.title, "h2", "section-title mb-12")}
               <div className="row">
-                {education.degrees.map((degree, index) => (
+                {team.memberNames.map((memberNames, index) => (
                   <div className="mb-7 md:col-6" key={"degree-" + index}>
                     <h4 className="text-base lg:text-[25px]">
-                      {degree.university}
+                      {memberNames.members_cont}
                     </h4>
-                    <p className="mt-2">{degree.content}</p>
+                    <p className="mt-2">{memberNames.content}</p>
                   </div>
                 ))}
               </div>

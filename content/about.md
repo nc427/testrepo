@@ -3,17 +3,16 @@ title: About mywebclass.org
 image: /images/ai-robot-1.png
 description: "meta description"
 layout: about
-education:
-  title: Formal Education
-  degrees:
-    - university: "Southeast University"
-      content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"
-    - university: "Northeast University"
-      content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"
-    - university: "Easteast University"
-      content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"
-    - university: "Southeast University"
-      content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"  
+team:
+  title: Group Members 
+  memberNames:
+    - members_cont: "Nickole Carranza"
+      content: "WIS • Class of 2024"
+    - members_cont: "Carlton Fountain"
+      content: "IT • Class of 2024"
+    - members_cont: "Khush Gupta"
+      content: "IS • Class of 2026"
+
 
 experience:
   title: Work Experience
