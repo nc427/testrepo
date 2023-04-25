@@ -3,10 +3,10 @@
     "title": "mywebclass.org",
     "base_url": "/",
     "favicon": "/images/mywebclass-icon.png",
-    "logo": "/images/mywebclass-logo-1.png",
-    "logo_white": "/images/logo-light.png",
+    "logo": "/images/logo1.png",
+    "logo_white": "/images/logo1.png",
     "logo_width": "150",
-    "logo_height": "39",
+    "logo_height": "150",
     "logo_text": "mywebclass"
   },
   "settings": {
